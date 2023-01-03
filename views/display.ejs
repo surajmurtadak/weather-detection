@@ -1,0 +1,8 @@
+<%- include("header") %>
+<img
+  src="http://openweathermap.org/img/wn/<%= icon %>@2x.png"
+  alt="Weather icon"
+/>
+<h1 style="margin-top: 1px">Temperature of <%= city %></h1>
+<h1 style="margin-top: 1px"><%= temperature %> ⁰C</h1>
+<%- include("footer") %>
